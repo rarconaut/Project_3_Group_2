@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Please answer the following questions.</h1>
+    <p>Your answers will help us predict your future</p>
+</div>
+    <form method="POST">
+        {{form.hidden_tag()}}
+        {{ form.location.label }} {{form.location()}}
+        <br>
+        {{ form.gender.label }} {{form.gender()}}
+        <br>
+        {{ form.experience.label }} {{form.experience()}}
+        <br>
+        {{ form.education.label }} {{form.education()}}
+        <br>
+        {{ form.major.label }} {{form.major()}}
+        <br>
+        {{ form.industry.label }} {{form.industry()}}
+        <br>
+        {{ form.company_size.label }} {{form.company_size()}}
+        <br>
+        {{form.submit()}}
+    </form>
+
+</div>
+
+
+{% endblock %}
