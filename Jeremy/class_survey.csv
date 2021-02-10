@@ -1,0 +1,27 @@
+gender,relevent_experience,education_level,major_discipline,company_type,company_size
+Male,Has relevant experience,Graduate,STEM,Other,0-49
+Male,Has relevant experience,Graduate,STEM,Other,100-500
+Female,no relevant experience,Graduate,Business Degree,Other,0-49
+Female,Has relevant experience,Graduate,Business Degree,Funded Startup,100-500
+Male,Has relevant experience,Graduate,Business Degree,Other,0-49
+Female,no relevant experience,Graduate,Business Degree,Other,0-49
+Female,Has relevant experience,Phd,STEM,Other,100-500
+Female,Has relevant experience,Masters,Humanities,Early Stage Startup,50-99
+Female,no relevant experience,Graduate,STEM,Funded Startup,100-500
+Male,Has relevant experience,Graduate,STEM,Other,100-500
+Male,Has relevant experience,Graduate,Business Degree,Other,50-99
+Male,no relevant experience,Graduate,Business Degree,Other,0-49
+Female,Has relevant experience,Graduate,STEM,Other,100-500
+Male,Has relevant experience,Masters,STEM,Other,0-49
+Male,Has relevant experience,Masters,STEM,Other,100-500
+Female,no relevant experience,Graduate,Humanities,Funded Startup,100-500
+Male,Has relevant experience,Graduate,STEM,Other,100-500
+Male,Has relevant experience,Masters,Other,Other,100-500
+Male,Has relevant experience,Graduate,Business Degree,Other,0-49
+Male,Has relevant experience,Masters,STEM,Other,0-49
+Female,Has relevant experience,Masters,Business Degree,Other,100-500
+Female,Has relevant experience,Graduate,Business Degree,Other,100-500
+Male,Has relevant experience,Graduate,STEM,Other,100-500
+Male,Has relevant experience,Graduate,STEM,Other,100-500
+Female,Has relevant experience,Masters,Other,Other,100-500
+Female,Has relevant experience,Phd,STEM,Other,100-500
