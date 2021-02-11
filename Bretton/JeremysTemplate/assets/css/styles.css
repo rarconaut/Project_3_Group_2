@@ -12,7 +12,7 @@ body {
   margin-bottom: 150px;
 
   /* Typography */
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Arial, "Times", Helvetica, sans-serif;
 
   /* Visual */
   background-color: #ededed;
@@ -65,13 +65,18 @@ body {
   padding-right: 20px;
 
   /* Typography */
-  font-family: Arial;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: lighter;
 }
 
 /* Nav element hover state */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #575757;
+}
+
+.navbar-action {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* Media query for nav */
@@ -118,16 +123,14 @@ body {
 
 .description-content {
   /* Box-model */
-  padding: 30px;
+  padding: 20px;
 
   /* Positioning */
   margin-top: 32px;
 
   /* Visual */
   background-color: #fff;
-}
 
-.description-content > p {
   /* Box-model */
   padding-top: 20px;
 
