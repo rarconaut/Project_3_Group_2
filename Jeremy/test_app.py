@@ -77,10 +77,19 @@ def add_person():
         db.session.add(new_entry)        
         db.session.commit()    
 
-        return redirect(url_for('list_person'))
+        return redirect(url_for('Model_Prediction'))
     
     return render_template('add.html',form=form)
 
+@app.route('/predict')
+def Model_Prediction(X):
+    # load model
+    model = joblib.load("HR_LRmodel_trained_V2.h5")
+    # Survey Predictions
+    prediction = model.predict(X)
+    print(f"First 10 Predictions:   {prediction}")
+    print("Model: " + model.__class__.__name__)
+    return model
 
 @app.route('/list')
 def list_person():
