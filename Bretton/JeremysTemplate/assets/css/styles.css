@@ -34,6 +34,8 @@ body {
   background-color: #fff;
 }
 
+}
+
 #logo {
   /* Box-model */
   height: 60px;
@@ -74,10 +76,7 @@ body {
   color: #575757;
 }
 
-.navbar-action {
-  color: black;
-  font-family: 'Times New Roman', Times, serif;
-}
+
 
 /* Media query for nav */
 @media only screen and (max-width: 767px) {

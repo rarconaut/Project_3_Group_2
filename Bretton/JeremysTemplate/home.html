@@ -26,39 +26,45 @@
     <nav class="navbar navbar-default navbar-light" style="background-color: #3f8d80;">
         
         <div class="navbar-expand" style="background-color:#3f8d80;">
-            <a class="navbar-brand" href="home.html" id="Home">Home</a>
-                <a class="navbar-action" href="{{url_for('add_person')}}">Add Person</a>
-                <a class="navbar-action" href="{{url_for('list_person')}}">List person<a>            
-                <a class="navbar-action" href="{{url_for('delete_person')}}">Delete Person</a>
+            <ul class="navbar-nav mr-auto">             
+                
+                
+            <a class="nav-item nav-link" href="home.html">Home</a>
+                <a class="nav-item nav-link" href="{{url_for('add_person')}}" id=addPersons>Add Person</a>
+                <a class="nav-item nav-link" href="{{url_for('list_person')}}" id=listPersons>List person<a>            
+                <a class="nav-item nav-link" href="{{url_for('delete_person')}}" id=delPersons>Delete Person</a>
+                
+            </ul>
+        
         </div>
                  
         <div class="navbar-expand" id="navbarSupportedContent">
          
-          <ul class="navbar-nav mr-auto">    
-          
-            <li class="nav-item dropdown">
+            <ul class="navbar-nav mr-auto">    
             
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</a>
+              <li class="nav-item dropdown">
+              
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</a>
+              
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-item nav-link" href="{{url_for('index')}}">Home</a>
+                  <a class="nav-item nav-link" href="{{url_for('add_person')}}">Add Person <a>
+                  <a class="nav-item nav-link" href="{{url_for('list_person')}}">List Person</a>
+                  <a class="nav-item nav-link" href="{{url_for('delete_person')}}">Delete Person</a>
+                </div>
             
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="nav-item nav-link" href="{{url_for('index')}}">Home</a>
-                <a class="nav-item nav-link" href="{{url_for('add_person')}}">Add Person <a>
-                <a class="nav-item nav-link" href="{{url_for('list_person')}}">List Person</a>
-                <a class="nav-item nav-link" href="{{url_for('delete_person')}}">Delete Person</a>
-              </div>
-          
-            </li>
-          
-            <li class="nav-item">
-              <a class="nav-link" href="Data.html">Data </a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="charts.html">Charts </a>          
-            </li>
-          
-          </ul>
-        </div>    
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="Data.html">Data </a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="charts.html">Charts </a>          
+              </li>
+            
+            </ul>
+          </div>     
       </nav>
 
 
