@@ -1,0 +1,27 @@
+gender,relevant_experience,education_level,major_discipline,company_size,company_type
+Male,Has relevant experience,Graduate,STEM,0-49,Other
+Male,Has relevant experience,Graduate,STEM,100-499,Other
+Female,No relevant experience,Graduate,Business Degree,0-49,Other
+Female,Has relevant experience,Graduate,Business Degree,100-499,Funded Startup
+Male,Has relevant experience,Graduate,Business Degree,0-49,Other
+Female,No relevant experience,Graduate,Business Degree,0-49,Other
+Female,Has relevant experience,Phd,STEM,100-499,Other
+Female,Has relevant experience,Masters,Humanities,50-99,Early Stage Startup
+Female,No relevant experience,Graduate,STEM,100-499,Funded Startup
+Male,Has relevant experience,Graduate,STEM,100-499,Other
+Male,Has relevant experience,Graduate,Business Degree,50-99,Other
+Male,No relevant experience,Graduate,Business Degree,0-49,Other
+Female,Has relevant experience,Graduate,STEM,100-499,Other
+Male,Has relevant experience,Masters,STEM,0-49,Other
+Male,Has relevant experience,Masters,STEM,100-499,Other
+Female,No relevant experience,Graduate,Humanities,100-499,Funded Startup
+Male,Has relevant experience,Graduate,STEM,100-499,Other
+Male,Has relevant experience,Masters,Other,100-499,Other
+Male,Has relevant experience,Graduate,Business Degree,0-49,Other
+Male,Has relevant experience,Masters,STEM,0-49,Other
+Female,Has relevant experience,Masters,Business Degree,100-499,Other
+Female,Has relevant experience,Graduate,Business Degree,100-499,Other
+Male,Has relevant experience,Graduate,STEM,100-499,Other
+Male,Has relevant experience,Graduate,STEM,100-499,Other
+Female,Has relevant experience,Masters,Other,100-499,Other
+Female,Has relevant experience,Phd,STEM,100-499,Other
