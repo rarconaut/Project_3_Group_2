@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Chartss</title>
+
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  
+  <div class="container">
+    <!-- Content here -->
+  </div>
+</head>
+<body>
+  <!DOCTYPE html>
+  <html lang="en-us">
+    
+    <head>
+      
+      <meta charset="UTF-8">
+    
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      
+      <title>Charts</title>
+    
+    </head>
+  
+    <body>
+      
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3f8d80;">
+        
+        <div class="container-fluid navbar-custom">
+          <a class="navbar-brand" href="home.html" id="Home">Home</a>
+        </div>
+          
+        <div class="navbar-expand" id="navbarSupportedContent">
+         
+          <ul class="navbar-nav mr-auto">    
+          
+            <li class="nav-item dropdown">
+            
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="nav-item nav-link" href="{{url_for('index')}}">Home</a>
+                <a class="nav-item nav-link" href="{{url_for('add_person')}}">Add Person <a>
+                <a class="nav-item nav-link" href="{{url_for('list_person')}}">List Person</a>
+                <a class="nav-item nav-link" href="{{url_for('delete_person')}}">Delete Person</a>
+              </div>
+          
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="Data.html">Data </a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="charts.html">Charts </a>          
+            </li>
+          
+          </ul>
+        </div>    
+      </nav> 
+
+
+<div class="container" style="background-color: #e1ecea;>
+  <article class="description-content row">
+    <!-- <div class="col-xs-12">
+      <h1 class="description-header">description-content</h1>
+      <hr class="description-hr"/>
+      <p class="description-text">description-text.</p>
+    </div> -->
+    
+    <div class="col-md-fluid">
+        <h2 class="comparison-header">Background</h2>
+        <a href="vis1.html"><img src="CindysCharts\background.png" alt="Cities" class="comparison-image img-responsive"></a>
+        <hr class="visible-xs visible-sm">
+      </div>
+
+    <div class="col-md-fluid">
+      <h2 class="comparison-header">Cities</h2>
+      <a href="vis1.html"><img src="CindysCharts\Cities.png" alt="Cities" class="comparison-image img-responsive"></a>
+      <hr class="visible-xs visible-sm">
+    </div>
+    
+    <div class="col-md-fluid">
+      <h2 class="comparison-header">Education</h2>
+      <a href="vis2.html"><img src="CindysCharts\Education.png" alt="income_vs_child_mortality" class="comparison-image img-responsive"></a>
+      <hr class="visible-xs visible-sm">
+    </div>
+    
+    <div class="col-md-fluid">
+      <h2 class="comparison-header">Experience</h2>
+      <a href="vis3.html"><img src="CindysCharts\Experience.png" alt="income_vs_life" class="comparison-image img-responsive"></a>
+      <hr class="visible-xs visible-sm">
+    </div>
+    
+    <div class="col-md-fluid">
+      <h2 class="comparison-header">Gender</h2>
+      <a href="vis4.html"><img src="CindysCharts\Gender.png" alt="income_vs_co2" class="comparison-image img-responsive"></a>
+    </div>
+
+    <div class="col-md-fluid">
+        <h2 class="comparison-header">Gender Count</h2>
+        <a href="vis4.html"><img src="CindysCharts\GenderCount.png" alt="income_vs_co2" class="comparison-image img-responsive"></a>
+    </div>
+
+    <div class="col-md-fluid">
+        <h2 class="comparison-header">Location</h2>
+        <a href="vis4.html"><img src="CindysCharts\Location.png" alt="income_vs_co2" class="comparison-image img-responsive"></a>
+      </div>
+  </article>
+
+</div>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
