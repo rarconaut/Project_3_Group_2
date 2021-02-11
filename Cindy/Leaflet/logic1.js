@@ -43,8 +43,8 @@ function createMarkers(data) {
 
    // Create the map object with options
    var map = L.map("map-id", {
-     center: [40.73, -74.0059],
-     zoom: 12,
+     center: [38, -99],
+     zoom: 4,
      layers: [lightmap, cities]
    });
 
