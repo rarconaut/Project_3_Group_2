@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+
+        <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+
+<!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen"> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-light" style="background-color: #3f8d80;">
+        
+        <div class="navbar-expand" style="background-color:#3f8d80;">
+            <ul class="navbar-nav mr-auto">             
+                
+                
+            <a class="nav-item nav-link" href="home.html">Home</a>
+                <a class="nav-item nav-link" href="{{url_for('add_person')}}" id=addPersons>Add Person</a>
+                <a class="nav-item nav-link" href="{{url_for('list_person')}}" id=listPersons>List person<a>            
+                <a class="nav-item nav-link" href="{{url_for('delete_person')}}" id=delPersons>Delete Person</a>
+                
+            </ul>
+        
+        </div>
+                 
+        <div class="navbar-expand" id="navbarSupportedContent">
+         
+            <ul class="navbar-nav mr-auto">    
+            
+              <li class="nav-item dropdown">
+              
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</a>
+              
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-item nav-link" href="{{url_for('index')}}">Home</a>
+                  <a class="nav-item nav-link" href="{{url_for('add_person')}}">Add Person <a>
+                  <a class="nav-item nav-link" href="{{url_for('list_person')}}">List Person</a>
+                  <a class="nav-item nav-link" href="{{url_for('delete_person')}}">Delete Person</a>
+                </div>
+            
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="Data.html">Data </a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="charts.html">Charts </a>          
+              </li>
+            
+            </ul>
+          </div>     
+      </nav>
+
+
+    <!-- <div class="jumbotron">
+        <h1 class="text-center">Job Switching</h1>
+    </div> -->
+
+    <div class="container">
+        <section class="row">
+            <div class="col-md-fluid">
+                
+                <article> 
+                <div class="description-header">
+                    <h2 class="text-center"> 
+                    <hr class="description-hr"/>
+                    
+                    <div class="description-content">
+                    <h2 class="text-center"> Job Switching by HR Analysis</h2>
+                    
+                    
+                    <!-- <img scr="assets/images/**" alt="" id="description-image"/> -->
+                    <div class="description-content text-left">
+                    <p>This database was created to predict a candidate's decision to switch jobs, based upon the HR metrics collected. The dataset consists of 3,168 recorded voice samples, collected from male and female speakers. The voice samples are pre-processed by , with.
+
+                    Context and Content A company which is active in Big Data and Data Science wants to hire data scientists among people who successfully pass some courses which conduct by the company. Many people signup for their training. Company wants to know which of these candidates are really wants to work for the company after training or looking for a new employment because it helps to reduce the cost and time as well as the quality of training or planning the courses and categorization of candidates. Information related to demographics, education, experience are in hands from candidates signup and enrollment.</br>
+
+                    This dataset designed to understand the factors that lead a person to leave current job for HR researches too. By model(s) that uses the current credentials,demographics,experience data you will predict the probability of a candidate to look for a new job or will work for the company, as well as interpreting affected factors on employee decision. </br>
+
+                    The whole data divided to train and test. Target isn't included in test but the test target values data file is in hands for related tasks. A sample submission correspond to enrollee_id of test set provided too with columns : enrollee _id , target</p>
+                </article>
+            
+                <article> 
+                    <div class="description-header">
+                        <h2 class="text-center"></h2> 
+                        <hr class="description-hr"/>
+                    <!-- <img scr="assets/images/**" alt="" id="description-image"/> -->
+                    <div class="description-content">
+                        <h2 class="text-center"> The Dataset </h2>
+                        <p></p>                      
+                        <p>The following HR properties of employees included within the CSV:</br>
+                        enrollee_id: Unique ID for candidate</br>
+                        city: City code</br>
+                        gender: Gender of candidate</br>
+                        relevent_experience: Relevant experience of candidate </br>
+                        enrolled_university: Type of University course enrolled if any</br>
+                        education_level: Education level of candidate</br>
+                        discipline: Education major discipline of candidate</br>
+                        experience: Candidate total experience in years</br>
+                        No of employees in current employer's company</br>
+                        Company type: Type of current employer</br>
+                        target: 0 - Not looking for job change, 1 - Looking for a
+                        job</br>                                             
+                        Notes: The dataset is imbalanced. Most features are
+                        categorical (Nominal, Ordinal, Binary), some with high cardinality. Missing imputation can be a part of your pipeline as well</br>
+                        Inspiration Predict the probability of a candidate will work for the company Interpret model(s) such a way that illustrate which features affect candidate decision Please refer to the following task for more details:<a href="https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists/tasks?taskId=3015">https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists/tasks?taskId=3015</a></p> 
+                    </article>
+            </div>
+        </section>
+    </body>
+    
+</html>

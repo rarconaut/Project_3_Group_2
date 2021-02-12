@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Thank you. Here is the information you gave us:</h1>
+    <ul>
+        {% for item in person %}
+        <li>{{item}}</li>
+        {% endfor %}
+
+        
+        
+            
+    </ul>
+
+</div>
+
+{% endblock %}
+
+
